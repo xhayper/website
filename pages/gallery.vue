@@ -176,11 +176,11 @@ const galleryData: ImageObject[][] = [
   ],
 ];
 
-const modalData = ref({
+const modalData = useState(() => ({
   enabled: false,
   imageData: {},
 } as {
   enabled: boolean;
   imageData?: ImageObject;
-});
+}));
 </script>
