@@ -5,7 +5,7 @@
       <div class="w-full" v-for="(rowData, index) in GD">
         <div class="flex flex-wrap gap-8 mx-10 my-10">
           <div class="flex justify-center w-50 h-50" v-for="imageData in rowData">
-            <NuxtImg :src="imageData.src" :alt="imageData.alt" quality="25" loading="lazy"
+            <NuxtImg :src="imageData.src" :alt="imageData.alt ?? 'Image'" quality="25" loading="lazy"
               style="width: 12.5rem; height: 12.5rem; max-width: 12.5rem; max-height: 12.5rem; object-fit: scale-down"
               @click="() => {
                 modalData.imageData = imageData;
@@ -38,7 +38,7 @@
                 </div>
                 <div class="mt-2">
                   <div class="min-w-50 min-h-50 w-auto h-auto">
-                    <NuxtImg :src="modalData.imageData?.src" :alt="modalData.imageData?.src" :quality="100" />
+                    <NuxtImg :src="modalData.imageData?.src" :alt="modalData.imageData?.alt ?? 'Image'" :quality="100" />
                   </div>
                 </div>
               </DialogPanel>
