@@ -37,7 +37,9 @@
                   </DialogTitle>
                 </div>
                 <div class="mt-2">
-                  <NuxtImg :src="modalData.imageData?.src" :alt="modalData.imageData?.src" :quality="100" style="width: 12.5rem; height: 12.5rem;" />
+                  <div class="w-50 h-50">
+                    <NuxtImg :src="modalData.imageData?.src" :alt="modalData.imageData?.src" :quality="100" />
+                  </div>
                 </div>
               </DialogPanel>
             </TransitionChild>
