@@ -1,12 +1,13 @@
 <template>
   <div>
     <!-- Gallery itself -->
-    <div v-if="galleryData" class="w-screen">
-      <div class="w-full" v-for="(rowData, index) in galleryData">
+    <div v-if="GD" class="w-screen">
+      <div class="w-full" v-for="(rowData, index) in GD">
         <div class="flex flex-wrap gap-8 mx-10 my-10">
           <div class="flex justify-center w-50 h-50" v-for="imageData in rowData">
-            <NuxtImg fit="inside" :src="imageData.src" :alt="imageData.alt" quality="25" loading="lazy"
-              style="max-width: 12.5rem; max-height: 12.5rem;" @click="() => {
+            <NuxtImg :src="imageData.src" :alt="imageData.alt" quality="25" loading="lazy"
+              style="width: 12.5rem; height: 12.5rem; max-width: 12.5rem; max-height: 12.5rem; object-fit: scale-down"
+              @click="() => {
                 modalData.imageData = imageData;
                 modalData.enabled = !modalData.enabled;
               }" />
@@ -48,6 +49,7 @@
 </template>
 
 <script setup lang="ts">
+import galleryData from "~/public/data/gallery.json";
 import {
   Dialog,
   DialogPanel,
@@ -62,7 +64,7 @@ type ImageObject = {
   tooltip?: string;
 };
 
-const { data: galleryData } = useFetch<ImageObject[][]>("/data/gallery.json");
+const GD = galleryData as ImageObject[][];
 
 const modalData = useState(() => ({
   enabled: false,
