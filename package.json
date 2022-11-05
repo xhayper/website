@@ -7,13 +7,11 @@
     "preview": "nuxi preview"
   },
   "devDependencies": {
-    "@funken-studio/sitemap-nuxt-3": "^4.0.0",
     "@headlessui/vue": "^1.7.4",
     "@nuxt/image-edge": "1.0.0-27769790.4b27db3",
-    "@nuxtjs/robots": "^2.5.0",
     "@vueuse/core": "^9.4.0",
     "@vueuse/nuxt": "^9.4.0",
-    "nuxt": "3.0.0-rc.12",
+    "nuxt": "3.0.0-rc.13",
     "nuxt-windicss": "^2.5.2",
     "sass": "^1.56.0",
     "source-map-support": "^0.5.21",
