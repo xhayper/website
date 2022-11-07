@@ -66,7 +66,7 @@ type ImageObject = {
 
 const GD = galleryData as ImageObject[][];
 
-const modalData = useState(() => ({
+const modalData = ref(({
   enabled: false,
   imageData: {},
 } as {
