@@ -14,10 +14,15 @@ import 'source-map-support/register';
 
 useHead({
   title: "hayper",
+  htmlAttrs: {
+    dir: "ltr",
+    lang: "en-US"
+  },
   link: [
     { rel: "icon", type: "image/png", href: "/favicon.png" },
-    { rel: "preconnect", href: "https://rsms.me/", crossorigin: true },
-    { rel: "dns-prefetch", href: "https://rsms.me/" },
+    // Font stuff
+    { rel: "preconnect", href: "https://rsms.me", crossorigin: true },
+    { rel: "dns-prefetch", href: "https://rsms.me" },
     { rel: "stylesheet", href: "https://rsms.me/inter/inter.css" }],
   meta: [
     {
@@ -28,20 +33,26 @@ useHead({
     // OpenGraph
     { property: "og:type", content: "website" },
     { property: "og:title", content: "hayper" },
-    { property: "og:url", content: "https://portfolio-xhayper.vercel.app" },
+    { property: "og:description", content: "Furry | Backend developer" },
+    { property: "og:url", content: "https://website-xhayper.vercel.app" },
+    // OpenGraph image
     {
       property: "og:image",
-      content: "https://portfolio-xhayper.vercel.app/gallery/hayper/useruploads_bdd2411b-2ec6-4153-ab40-d7f28a5cf0b7_kofimissions9.png",
+      content: "https://website-xhayper.vercel.app/gallery/hayper/WOOOO.png",
     },
-    { property: "og:description", content: "Furry | Backend developer" },
+    { property: "og:image:type", content: "image/png" },
+    { property: "og:image:width", content: 5435 },
+    { property: "og:image:height", content: 3871 },
+    { property: "og:image:alt", content: "My fursona" },
     // Twitter
     { name: "twitter:card", content: "summary_large_image" },
     { name: "twitter:title", content: "hayper" },
-    { name: "twitter:site", content: "@hayper1919" },
     { name: "twitter:description", content: "Furry | Backend developer" },
+    { name: "twitter:site", content: "@hayper1919" },
+    { name: "twitter:creator", content: "@hayper1919" },
     {
       name: "twitter:image",
-      content: "https://portfolio-xhayper.vercel.app/gallery/hayper/useruploads_bdd2411b-2ec6-4153-ab40-d7f28a5cf0b7_kofimissions9.png",
+      content: "https://website-xhayper.vercel.app/gallery/hayper/WOOOO.png",
     },
   ],
 });
