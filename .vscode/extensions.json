@@ -1,3 +1,6 @@
 {
-  "recommendations": ["vue.volar", "voorjaar.windicss-intellisense"]
+  "recommendations": [
+    "vue.volar",
+    "antfu.unocss"
+  ]
 }

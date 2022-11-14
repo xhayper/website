@@ -37,7 +37,7 @@
                   </DialogTitle>
                 </div>
                 <div class="mt-2">
-                  <NuxtImg :src="modalData.imageData?.src" :alt="modalData.imageData?.alt ?? 'Image'" :quality="100" />
+                  <NuxtImg :src="modalData.imageData?.src" :alt="modalData.imageData?.alt ?? 'Image'" :quality="100" class="block ha w-full" />
                 </div>
               </DialogPanel>
             </TransitionChild>
@@ -49,7 +49,7 @@
 </template>
 
 <script setup lang="ts">
-import galleryData from "~/public/data/gallery.json";
+import galleryData from "~/src/data/gallery.json";
 import {
   Dialog,
   DialogPanel,

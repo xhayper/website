@@ -28,7 +28,7 @@
             <div class="hidden sm:ml-6 sm:block">
               <div class="flex space-x-4">
                 <NuxtLink v-for="item in navigation" :key="item.name" :to="item.href"
-                  :class="[item.current() ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white', 'px-3 py-2 rounded-md text-sm font-medium']"
+                  :class="[item.current() ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white', 'px-3 py-2 rounded-md text-sm font-medium decoration-none']"
                   :aria-current="item.current() ? 'page' : undefined">{{ item.name }}</NuxtLink>
               </div>
             </div>
@@ -40,7 +40,7 @@
         <div class="space-y-1 px-2 pt-2 pb-3">
           <NuxtLink v-for="item in navigation" :key="item.name" :to="item.href">
             <DisclosureButton as="div" :class="[item.current() ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white',
-            'block px-3 py-2 rounded-md text-base font-medium']" :aria-current="item.current() ? 'page' : undefined">
+            'block px-3 py-2 rounded-md text-base font-medium decoration-none']" :aria-current="item.current() ? 'page' : undefined">
               {{ item.name }}
             </DisclosureButton>
           </NuxtLink>
