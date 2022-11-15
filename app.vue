@@ -21,8 +21,8 @@ useHead({
   link: [
     { rel: "icon", type: "image/png", href: "/favicon.png" },
     // Font stuff
-    { rel: "preconnect", href: "https://rsms.me", crossorigin: true },
-    { rel: "dns-prefetch", href: "https://rsms.me" },
+    { rel: "preconnect", href: "https://rsms.me/", crossorigin: "" },
+    { rel: "dns-prefetch", href: "https://rsms.me/" },
     { rel: "stylesheet", href: "https://rsms.me/inter/inter.css" }],
   meta: [
     {
