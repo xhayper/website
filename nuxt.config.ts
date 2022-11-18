@@ -6,9 +6,6 @@ export default defineNuxtConfig({
     build: {
         transpile: ["@headlessui/vue"]
     },
-    vueuse: {
-        ssrHandlers: true
-    },
     typescript: {
         shim: false,
         strict: true,
