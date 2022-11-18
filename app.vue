@@ -40,6 +40,10 @@ useHead({
       property: "og:image",
       content: "https://website-xhayper.vercel.app/gallery/hayper/WOOOO.png",
     },
+    {
+      property: "og:image:secure_url",
+      content: "https://website-xhayper.vercel.app/gallery/hayper/WOOOO.png",
+    },
     { property: "og:image:type", content: "image/png" },
     { property: "og:image:width", content: 5435 },
     { property: "og:image:height", content: 3871 },
