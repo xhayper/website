@@ -19,7 +19,7 @@ useHead({
     lang: "en-US"
   },
   link: [
-    { rel: "icon", type: "image/png", href: "/favicon.png" },
+    { rel: "icon", type: "image/x-icon", href: "/favicon.ico" },
     // Font stuff
     { rel: "preconnect", href: "https://rsms.me/", crossorigin: "" },
     { rel: "dns-prefetch", href: "https://rsms.me/" },
