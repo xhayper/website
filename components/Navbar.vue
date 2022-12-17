@@ -21,8 +21,8 @@
           <div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
             <div class="flex flex-shrink-0 items-center">
               <NuxtLink to="/">
-                <NuxtImg class="block h-8 w-auto lg:hidden" src="/favicon.png" quality="50" alt="logo" />
-                <NuxtImg class="hidden h-8 w-auto lg:block" src="/favicon.png" quality="50" alt="logo" />
+                <NuxtImg class="block h-8 w-auto lg:hidden" src="/icon.png" quality="50" alt="logo" />
+                <NuxtImg class="hidden h-8 w-auto lg:block" src="/icon.png" quality="50" alt="logo" />
               </NuxtLink>
             </div>
             <div class="hidden sm:ml-6 sm:block">
