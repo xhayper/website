@@ -1,4 +1,4 @@
-<script setup lang="js">
+<script setup lang="ts">
 // Prevent FOUC
 useHead({
   script: [
