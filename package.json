@@ -11,6 +11,7 @@
         "@headlessui/vue": "^1.7.7",
         "@iconify-json/mdi": "^1.1.39",
         "@nuxt/image-edge": "1.0.0-27840416.dc1ed65",
+        "@types/node": "^18.11.17",
         "@unocss/nuxt": "^0.47.6",
         "@unocss/preset-rem-to-px": "^0.47.6",
         "@unocss/preset-wind": "^0.47.6",
