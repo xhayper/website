@@ -3,11 +3,11 @@
     <ul>
       <li>
         Former developer at <a href="https://www.roblox.com/games/6682504402" target="_blank"
-        rel="noreferrer noopener">Altered</a>
+          rel="noreferrer noopener">Altered</a>
       </li>
       <li>
         Former developer at <a href="https://www.roblox.com/games/6464459617" target="_blank"
-        rel="noreferrer noopener">RESURGENCED RP</a>
+          rel="noreferrer noopener">RESURGENCED RP</a>
       </li>
     </ul>
     <ul>
@@ -32,11 +32,18 @@
     </ul>
     <ul>
       <li>
+        Discord bot developer at <a href="https://discord.gg/changed" target="_blank"
+          rel="noreferrer noopener">Changed</a>
+      </li>
+      <li>
         Developer at <a href="https://www.roblox.com/games/7131355525" target="_blank" rel="noreferrer noopener">
           Thunder Scientific Corporation</a>
       </li>
     </ul>
     <ul>
+      <li>
+        Moderator at <a href="https://discord.gg/changed" target="_blank" rel="noreferrer noopener">Changed</a>
+      </li>
       <li>
         Moderator at <a href="https://www.roblox.com/games/10875701453" target="_blank" rel="noreferrer noopener">Edward
           the Man Eating Train</a>
