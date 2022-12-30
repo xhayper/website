@@ -45,7 +45,7 @@
         Moderator at <a href="https://discord.gg/changed" target="_blank" rel="noreferrer noopener">Changed</a>
       </li>
       <li>
-        Trial Moderator at <a href="https://www.roblox.com/games/10875701453" target="_blank" rel="noreferrer noopener">Edward
+        Moderator at <a href="https://www.roblox.com/games/10875701453" target="_blank" rel="noreferrer noopener">Edward
           the Man Eating Train</a>
       </li>
     </ul>
