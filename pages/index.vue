@@ -56,6 +56,10 @@
       <li>
         <a href="https://twitter.com/hayper1919" target="_blank" rel="noreferrer noopener">Twitter</a>
       </li>
+      <li>Discord: hayper#6879</li>
+      <li>
+        <a href="https://discord.gg/xTAR8nUs2g" target="_blank" rel="noreferrer noopener">Discord Server</a>
+      </li>
     </ul>
   </div>
 </template>
