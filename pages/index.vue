@@ -39,6 +39,10 @@
         Developer at <a href="https://www.roblox.com/games/7131355525" target="_blank" rel="noreferrer noopener">
           Thunder Scientific Corporation</a>
       </li>
+      <li>
+        Developer at <a href="https://www.roblox.com/games/6675127933" target="_blank" rel="noreferrer noopener">
+          The Petting Room</a>
+      </li>
     </ul>
     <ul>
       <li>
