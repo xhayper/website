@@ -43,6 +43,10 @@
         Developer at <a href="https://www.roblox.com/games/6675127933" target="_blank" rel="noreferrer noopener">
           The Petting Room</a>
       </li>
+      <li>
+        Developer at <a href="https://www.roblox.com/groups/15809968" target="_blank" rel="noreferrer noopener">
+          Daybreak.Games</a>
+      </li>
     </ul>
     <ul>
       <li>
