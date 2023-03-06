@@ -38,11 +38,11 @@ useHead({
     // OpenGraph image
     {
       property: "og:image",
-      content: "https://website-xhayper.vercel.app/gallery/hayper/WOOOO.png",
+      content: "https://website-xhayper.vercel.app/banner.png",
     },
     {
       property: "og:image:secure_url",
-      content: "https://website-xhayper.vercel.app/gallery/hayper/WOOOO.png",
+      content: "https://website-xhayper.vercel.app/banner.png",
     },
     { property: "og:image:type", content: "image/png" },
     { property: "og:image:width", content: 5435 },
@@ -56,7 +56,7 @@ useHead({
     { name: "twitter:creator", content: "@hayper1919" },
     {
       name: "twitter:image",
-      content: "https://website-xhayper.vercel.app/gallery/hayper/WOOOO.png",
+      content: "https://website-xhayper.vercel.app/banner.png",
     },
   ],
 });

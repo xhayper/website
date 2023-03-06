@@ -1,3 +1,4 @@
+<!--
 <template>
   <div>
     <Disclosure as="nav" class="dark: bg-gray-800" v-slot="{ open }">
@@ -61,3 +62,4 @@ const navigation = [
   { name: 'Gallery', href: '/gallery', enabled: true, current: () => isActive("/gallery") },
 ]
 </script>
+-->
