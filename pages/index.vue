@@ -50,6 +50,9 @@
     </ul>
     <ul>
       <li>
+        Discord Moderator at at <a href="https://raccoon.xd.com/" target="_blank" rel="noreferrer noopener">Unhappy Raccoon</a>
+      </li>
+      <li>
         Moderator at <a href="https://discord.gg/changed" target="_blank" rel="noreferrer noopener">Changed</a>
       </li>
       <li>
