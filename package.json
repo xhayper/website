@@ -9,20 +9,20 @@
     },
     "devDependencies": {
         "@headlessui/vue": "^1.7.12",
-        "@iconify-json/mdi": "^1.1.49",
-        "@nuxt/image-edge": "1.0.0-27968280.9739e4d",
-        "@types/node": "^18.14.6",
-        "@unocss/nuxt": "^0.50.4",
-        "@unocss/preset-rem-to-px": "^0.50.4",
-        "@unocss/preset-wind": "^0.50.4",
-        "@unocss/transformer-directives": "^0.50.4",
+        "@iconify-json/mdi": "^1.1.50",
+        "@nuxt/image-edge": "1.0.0-27990059.c3f31ce",
+        "@types/node": "^18.15.5",
+        "@unocss/nuxt": "^0.50.6",
+        "@unocss/preset-rem-to-px": "^0.50.6",
+        "@unocss/preset-wind": "^0.50.6",
+        "@unocss/transformer-directives": "^0.50.6",
         "@vueuse/core": "^9.13.0",
         "@vueuse/nuxt": "^9.13.0",
-        "nuxt": "^3.2.3",
-        "sass": "^1.58.3",
+        "nuxt": "^3.3.1",
+        "sass": "^1.59.3",
         "source-map-support": "^0.5.21",
-        "typescript": "^4.9.5",
+        "typescript": "^5.0.2",
         "vue-tsc": "^1.2.0"
     },
-    "packageManager": "pnpm@7.28.0"
+    "packageManager": "pnpm@7.30.0"
 }
