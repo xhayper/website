@@ -69,7 +69,9 @@
       </li>
       <li>Discord: xhayper</li>
       <li>Revolt: hayper#5357</li>
-      <a rel="me" href="https://furry.engineer/@hayper">Mastodon: @hayper@furry.engineer</a>
+      <li>
+        Mastodon: <a rel="me" href="https://furry.engineer/@hayper">@hayper@furry.engineer</a>
+      </li>
       <li>
         <a href="https://discord.gg/xTAR8nUs2g" target="_blank" rel="noreferrer noopener">Discord Server</a>
       </li>
