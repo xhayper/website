@@ -46,7 +46,8 @@
     </ul>
     <ul>
       <li>
-        Discord Moderator at at <a href="https://raccoon.xd.com/" target="_blank" rel="noreferrer noopener">Unhappy Raccoon</a>
+        Discord Moderator at at <a href="https://raccoon.xd.com/" target="_blank" rel="noreferrer noopener">Unhappy
+          Raccoon</a>
       </li>
       <li>
         Moderator at <a href="https://discord.gg/changed" target="_blank" rel="noreferrer noopener">Changed</a>
@@ -67,11 +68,11 @@
       <li>
         <a href="https://twitter.com/hayper1919" target="_blank" rel="noreferrer noopener">Twitter</a>
       </li>
+      <li>
+        <a rel="me" href="https://furry.engineer/@hayper">Mastodon</a>
+      </li>
       <li>Discord: xhayper</li>
       <li>Revolt: hayper#5357</li>
-      <li>
-        Mastodon: <a rel="me" href="https://furry.engineer/@hayper">@hayper@furry.engineer</a>
-      </li>
       <li>
         <a href="https://discord.gg/xTAR8nUs2g" target="_blank" rel="noreferrer noopener">Discord Server</a>
       </li>
