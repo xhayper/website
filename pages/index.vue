@@ -69,7 +69,7 @@
         <a href="https://twitter.com/hayper1919" target="_blank" rel="noreferrer noopener">Twitter</a>
       </li>
       <li>
-        <a rel="me" href="https://furry.engineer/@hayper" target="_blank" rel="noreferrer noopener">Mastodon</a>
+        <a href="https://furry.engineer/@hayper" target="_blank" rel="noreferrer noopener">Mastodon</a>
       </li>
       <li>
         <a href="https://bsky.app/profile/hayper.bsky.social" target="_blank" rel="noreferrer noopener">Bluesky</a>
