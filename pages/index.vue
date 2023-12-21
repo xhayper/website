@@ -151,7 +151,7 @@
         <a
           href="https://github.com/xhayper"
           target="_blank"
-          rel="noreferrer noopener"
+          rel="me noreferrer noopener"
           >GitHub</a
         >
       </li>
@@ -159,7 +159,7 @@
         <a
           href="https://twitter.com/hayper1919"
           target="_blank"
-          rel="noreferrer noopener"
+          rel="me noreferrer noopener"
           >Twitter</a
         >
       </li>
@@ -167,7 +167,7 @@
         <a
           href="https://furry.engineer/@hayper"
           target="_blank"
-          rel="noreferrer noopener"
+          rel="me noreferrer noopener"
           >Mastodon</a
         >
       </li>
@@ -175,7 +175,7 @@
         <a
           href="https://bsky.app/profile/hayper.bsky.social"
           target="_blank"
-          rel="noreferrer noopener"
+          rel="me noreferrer noopener"
           >Bluesky</a
         >
       </li>
