@@ -76,30 +76,6 @@
           >GitHub</a
         >
       </li>
-      <li>
-        <a
-          href="https://twitter.com/hayper1919"
-          target="_blank"
-          rel="me noreferrer noopener"
-          >Twitter</a
-        >
-      </li>
-      <li>
-        <a
-          href="https://furry.engineer/@hayper"
-          target="_blank"
-          rel="me noreferrer noopener"
-          >Mastodon</a
-        >
-      </li>
-      <li>
-        <a
-          href="https://bsky.app/profile/hayper.bsky.social"
-          target="_blank"
-          rel="me noreferrer noopener"
-          >Bluesky</a
-        >
-      </li>
       <li>Discord: xhayper</li>
       <li>Revolt: hayper#5357</li>
       <li>
