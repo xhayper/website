@@ -36,6 +36,10 @@ const routeList = [
         path: '/'
     },
     {
+        name: 'About',
+        path: '/about'
+    },
+    {
         name: 'Portfolio',
         path: '/portfolio'
     },

@@ -131,4 +131,6 @@ const filteredWorkList = workList.filter(work => !work.isTransfur || (showTransf
 definePageMeta({
     title: 'Portfolio'
 });
+
+updateTitle();
 </script>

@@ -17,7 +17,14 @@ useHead({
     // Font stuff
     { rel: "preconnect", href: "https://rsms.me/", crossorigin: "" },
     { rel: "dns-prefetch", href: "https://rsms.me/" },
-    { rel: "stylesheet", href: "https://rsms.me/inter/inter.css" }],
+    { rel: "stylesheet", href: "https://rsms.me/inter/inter.css" },
+    // Placeholder image
+    { rel: "preconnect", href: "https://placehold.co/", crossorigin: "" },
+    { rel: "dns-prefetch", href: "https://placehold.co/" },
+    // Roblox thumbnail image
+    { rel: "preconnect", href: "https://tr.rbxcdn.com/", crossorigin: "" },
+    { rel: "dns-prefetch", href: "https://tr.rbxcdn.com/" }
+  ],
   meta: [
     {
       name: "viewport",

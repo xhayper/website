@@ -25,6 +25,12 @@
                 </NuxtLink>
             </li>
             <li>
+                <NuxtLink to="https://www.roblox.com/users/1921023125/profile" target="_blank" rel="me noreferrer noopener"
+                    class="text-gray-900 md:hover:text-blue-700 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white">
+                    Roblox
+                </NuxtLink>
+            </li>
+            <li>
                 <NuxtLink to="https://discord.gg/xTAR8nUs2g" target="_blank" rel="noreferrer noopener"
                     class="text-gray-900 md:hover:text-blue-700 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white">
                     Discord Server
