@@ -29,6 +29,14 @@ const workList: Work[] = [
         url: "https://github.com/reflektone-games"
     },
     {
+        name: "Cosmoverse",
+        description: "Furry Minecraft Server (Non Roblox)",
+        job: "Sysadmin and Developer",
+        startDate: new Date(2023, 6, 28),
+        thumbnail: "/thumbnail/cosmoverse.png",
+        url: "https://cosmoverse.gay/"
+    },
+    {
         name: "Cult of the Lamb",
         description: "Create your own cult, as a lamb. Roguelike + Resources Managment (Non Roblox)",
         job: "Reddit Moderator",
