@@ -28,7 +28,6 @@
 </template>
 
 <script setup lang="ts">
-
 const route = useRoute();
 
 const routeList = [
@@ -39,6 +38,10 @@ const routeList = [
     {
         name: 'Portfolio',
         path: '/portfolio'
+    },
+    {
+        name: 'Project',
+        path: '/project'
     }
 ]
 </script>
