@@ -69,7 +69,7 @@ const projectList: Project[] = [
     },
     {
         name: "dr-k-bot",
-        description: "Moderation bot for Official Changed discord server",
+        description: "Moderation bot for Official Changed discord server. (Non Roblox)",
         url: "https://github.com/xhayper/dr-k-bot",
         isTransfur: true
     },
