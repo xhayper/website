@@ -7,6 +7,12 @@
 </template>
 
 <script setup lang="ts">
+import { initFlowbite } from 'flowbite';
+
+onMounted(() => {
+  initFlowbite();
+});
+
 useHead({
   title: "hayper",
   htmlAttrs: {
