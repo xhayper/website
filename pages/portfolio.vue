@@ -29,6 +29,13 @@ const workList: Work[] = [
         url: "https://github.com/reflektone-games"
     },
     {
+        name: "Cult of the Lamb",
+        description: "TODO (Non Roblox)",
+        job: "Reddit Moderator",
+        startDate: new Date(2023, 5, 25),
+        url: "https://www.cultofthelamb.com/"
+    },
+    {
         name: "Anthropolious",
         description: "A hangout game for furry and non furry! (Roblox)",
         job: "Scripter",
