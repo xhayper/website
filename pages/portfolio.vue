@@ -120,7 +120,14 @@ const workList: Work[] = [
         description: "Discord server for a composer called 'LyricWulf' (Non Roblox)",
         job: "Moderator",
         url: "https://lyricwulf.com/discord/"
-    }
+    }//,
+    // {
+    //     name: "Adonis",
+    //     description: "Community-maintained server moderation and management system created for use on the Roblox platform. (Roblox)",
+    //     job: "Contributor",
+    //     thumbnail: "https://repository-images.githubusercontent.com/55325103/2bed6800-bfef-11eb-835b-99b981918623?width=300&height=260",
+    //     url: "https://github.com/Epix-Incorporated/Adonis"
+    // }
 ];
 
 const showTransfurWork = query.showTransfurWork === 'true';
