@@ -37,6 +37,7 @@
       <li>
         Former Delta (Moderator) at
         <a href="https://discord.gg/lyricwulf" target="_blank" rel="noreferrer noopener">Lyricity</a>
+        [<a href="https://lyricwulf.com/discord/" target="_blank" rel="noreferrer noopener">Backup link</a>]
       </li>
     </ul>
     <ul>
