@@ -63,6 +63,11 @@ const projectList: Project[] = [
         url: "https://cotl-save-editor.vercel.app/"
     },
     {
+        name: "simai.js",
+        description: "A serializer/deserializer for the rhythm game chart format simai. (Non Roblox)",
+        url: "https://github.com/reflektone-games/simai.js"
+    },
+    {
         name: "dr-k-bot",
         description: "Moderation bot for Official Changed discord server",
         url: "https://github.com/xhayper/dr-k-bot",
