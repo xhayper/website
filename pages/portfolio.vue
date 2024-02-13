@@ -45,6 +45,14 @@ const workList: Work[] = [
         url: "https://www.roblox.com/games/10875701453"
     },
     {
+        name: "Changed",
+        description: "You know what this is. (Non Roblox)",
+        job: "Moderator and Bot developer",
+        startDate: new Date(2021, 12, 10),
+        url: "https://discord.gg/changed",
+        isTransfur: true
+    },
+    {
         name: "Unhappy Raccoon",
         description: "MMORPG Top-Down game where you play as a furry. (Non Roblox)",
         job: "Discord Moderator",
