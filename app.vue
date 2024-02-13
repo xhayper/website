@@ -34,15 +34,15 @@ useHead({
     { property: "og:type", content: "website" },
     { property: "og:title", content: "hayper" },
     { property: "og:description", content: "Furry | Backend developer" },
-    { property: "og:url", content: "https://website-xhayper.vercel.app" },
+    { property: "og:url", content: "https://www.hayper.xyz/" },
     // OpenGraph image
     {
       property: "og:image",
-      content: "https://website-xhayper.vercel.app/banner.png",
+      content: "https://www.hayper.xyz/banner.png",
     },
     {
       property: "og:image:secure_url",
-      content: "https://website-xhayper.vercel.app/banner.png",
+      content: "https://www.hayper.xyz/banner.png",
     },
     { property: "og:image:type", content: "image/png" },
     { property: "og:image:width", content: 5435 },
@@ -56,7 +56,7 @@ useHead({
     { name: "twitter:creator", content: "@hayper1919" },
     {
       name: "twitter:image",
-      content: "https://website-xhayper.vercel.app/banner.png",
+      content: "https://www.hayper.xyz/banner.png",
     },
   ],
 });
