@@ -25,6 +25,7 @@ const projectList: Project[] = [
     {
         name: "COTL_API",
         description: "Modding API for Cult of the Lamb (Non Roblox)",
+        "thumbnail": "/thumbnail/cotl_api.png",
         url: "https://github.com/xhayper/COTL_API"
     },
     {
