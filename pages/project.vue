@@ -73,6 +73,13 @@ const projectList: Project[] = [
         description: "Changed inspried Minecraft mod (Non Roblox)",
         url: "https://github.com/xhayper/Turned",
         isTransfur: true
+    },
+    {
+        name: "Transfur Game Kit",
+        description: "Template transfur game. (Roblox)",
+        thumbnail: "https://tr.rbxcdn.com/14febb2109056cfb858f56f2ee5f3364/352/352/Image/Png",
+        url: "https://www.roblox.com/games/7184400142",
+        isTransfur: true
     }
 ];
 

@@ -88,15 +88,6 @@ const workList: Work[] = [
         isTransfur: true
     },
     {
-        name: "Transfur Game Kit",
-        description: "Template transfur game. (Roblox)",
-        job: "Owner",
-        startDate: new Date(2021, 8),
-        thumbnail: "https://tr.rbxcdn.com/14febb2109056cfb858f56f2ee5f3364/352/352/Image/Png",
-        url: "https://www.roblox.com/games/7184400142",
-        isTransfur: true
-    },
-    {
         name: "Altered",
         description: "TODO (Roblox)",
         job: "Scripter",
