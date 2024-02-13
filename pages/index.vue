@@ -50,7 +50,7 @@
         <a href="https://furry.engineer/@hayper" target="_blank" rel="me noreferrer noopener">Mastodon</a>
       </li>
       <li>
-        <a href="https://bsky.app/profile/hayper.bsky.social" target="_blank" rel="me noreferrer noopener">Bluesky</a>
+        <a href="https://bsky.app/profile/hayper.xyz" target="_blank" rel="me noreferrer noopener">Bluesky</a>
       </li>
       <li>Discord: xhayper</li>
       <li>Revolt: hayper#5357</li>
