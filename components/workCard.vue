@@ -31,6 +31,5 @@ defineProps<{
     endDate?: Date,
     thumbnail?: string,
     url?: string
-}>()
-
+}>();
 </script>
