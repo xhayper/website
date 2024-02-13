@@ -68,6 +68,11 @@ const projectList: Project[] = [
         url: "https://github.com/reflektone-games/simai.js"
     },
     {
+        name: "roblox-message-thing",
+        description: "Roblox <=> Typescript | Communication test. (Roblox)",
+        url: "https://github.com/xhayper/roblox-message-thing/"
+    },
+    {
         name: "dr-k-bot",
         description: "Moderation bot for Official Changed discord server. (Non Roblox)",
         url: "https://github.com/xhayper/dr-k-bot",
