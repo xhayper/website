@@ -30,9 +30,10 @@ const workList: Work[] = [
     },
     {
         name: "Cult of the Lamb",
-        description: "TODO (Non Roblox)",
+        description: "Create your own cult, as a lamb. Roguelike + Resources Managment (Non Roblox)",
         job: "Reddit Moderator",
         startDate: new Date(2023, 5, 25),
+        thumbnail: "/thumbnail/cult_of_the_lamb.png",
         url: "https://www.cultofthelamb.com/"
     },
     {
