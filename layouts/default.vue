@@ -1,8 +1,7 @@
 <template>
-  <div>
-    <!-- <Navbar /> -->
-    <main>
-      <slot />
-    </main>
-  </div>
+    <div>
+        <Navbar />
+        <slot />
+    </div>
 </template>
+  

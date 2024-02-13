@@ -1,14 +1,16 @@
-// https://v3.nuxtjs.org/api/configuration/nuxt.config
+// https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-    ssr: true,
-    modules: ["@nuxt/image-edge", "@vueuse/nuxt", "@unocss/nuxt"],
-    css: ["@/assets/styles/global.scss"],
-    build: {
-        transpile: ["@headlessui/vue"]
+  css: ["~/assets/css/main.css"],
+  modules: ["@nuxt/image", "@nuxtjs/tailwindcss"],
+  devtools: { enabled: true },
+  app: {
+    head: {
+      htmlAttrs: {
+        class: "dark",
+      },
+      bodyAttrs: {
+        class: "mocha",
+      },
     },
-    typescript: {
-        shim: false,
-        strict: true,
-        typeCheck: true
-    }
+  },
 });

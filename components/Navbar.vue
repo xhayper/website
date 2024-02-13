@@ -1,65 +1,44 @@
-<!--
 <template>
-  <div>
-    <Disclosure as="nav" class="dark: bg-gray-800" v-slot="{ open }">
-      <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
-        <div class="relative flex h-16 items-center justify-between">
-          <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
-            <!-- Mobile menu button-->
-            <DisclosureButton
-              class="inline-flex items-center justify-center rounded-md p-2 text-white bg-gray-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
-              <span class="sr-only">Open main menu</span>
-              <svg v-if="!open" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                stroke="currentColor" class="block w-6 h-6" aria-hidden="true">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
-              </svg>
-              <svg v-else xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                stroke="currentColor" class="block w-6 h-6" aria-hidden="true">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
-              </svg>
-            </DisclosureButton>
-          </div>
-          <div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
-            <div class="flex flex-shrink-0 items-center">
-              <NuxtLink to="/">
-                <NuxtImg class="block h-8 w-auto lg:hidden" src="/icon.png" quality="50" alt="logo" />
-                <NuxtImg class="hidden h-8 w-auto lg:block" src="/icon.png" quality="50" alt="logo" />
-              </NuxtLink>
+    <nav class="bg-white border-gray-200 dark:bg-gray-900">
+        <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+            <button data-collapse-toggle="navbar-default" type="button"
+                class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                aria-controls="navbar-default" aria-expanded="false">
+                <span class="sr-only">Open main menu</span>
+                <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M1 1h15M1 7h15M1 13h15" />
+                </svg>
+            </button>
+            <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+                <ul
+                    class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+                    <li v-for="item in routeList" :key="item.path">
+                        <NuxtLink v-if="item.path === route.path" :to="item.path"
+                            class="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500"
+                            aria-current="page">{{ item.name }}</NuxtLink>
+                        <NuxtLink v-else :to="item.path"
+                            class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">
+                            {{ item.name }}</NuxtLink>
+                    </li>
+                </ul>
             </div>
-            <div class="hidden sm:ml-6 sm:block">
-              <div class="flex space-x-4">
-                <NuxtLink v-for="item in navigation" :key="item.name" :to="item.href"
-                  :class="[item.current() ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white', 'px-3 py-2 rounded-md text-sm font-medium decoration-none']"
-                  :aria-current="item.current() ? 'page' : undefined">{{ item.name }}</NuxtLink>
-              </div>
-            </div>
-          </div>
         </div>
-      </div>
-
-      <DisclosurePanel class="sm:hidden">
-        <div class="space-y-1 px-2 pt-2 pb-3">
-          <NuxtLink v-for="item in navigation" :key="item.name" :to="item.href" class="decoration-none">
-            <DisclosureButton as="div" :class="[item.current() ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white',
-            'block px-3 py-2 rounded-md text-base font-medium']" :aria-current="item.current() ? 'page' : undefined">
-              {{ item.name }}
-            </DisclosureButton>
-          </NuxtLink>
-        </div>
-      </DisclosurePanel>
-    </Disclosure>
-  </div>
+    </nav>
 </template>
 
 <script setup lang="ts">
-import { Disclosure, DisclosureButton, DisclosurePanel } from '@headlessui/vue';
 
 const route = useRoute();
-const isActive = (href: string) => href.replace(/\/$/, "") === route.path.replace(/\/$/, "");
 
-const navigation = [
-  { name: 'Home', href: "/", enabled: true, current: () => isActive("/") },
-  { name: 'Gallery', href: '/gallery', enabled: true, current: () => isActive("/gallery") },
+const routeList = [
+    {
+        name: 'Home',
+        path: '/'
+    },
+    {
+        name: 'Portfolio',
+        path: '/portfolio'
+    }
 ]
 </script>
--->
