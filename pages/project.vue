@@ -33,11 +33,6 @@ const projectList: Project[] = [
         url: "https://github.com/xhayper/Animator"
     },
     {
-        name: "RustCounter",
-        description: "Fork of MoeCounter to Rust (Non Roblox)",
-        url: "https://github.com/xhayper/RustCounter"
-    },
-    {
         name: "BufferStream",
         description: "Wrapper around Buffer class that handle offset for you (Roblox)",
         url: "https://github.com/xhayper/BufferStream"
