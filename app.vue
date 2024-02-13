@@ -8,6 +8,7 @@
 
 <script setup lang="ts">
 useHead({
+  title: "hayper",
   htmlAttrs: {
     lang: "en-US"
   },

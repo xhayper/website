@@ -129,4 +129,8 @@ const showTransfurWork = query.showTransfurWork === 'true';
 
 const filteredWorkList = workList.filter(work => !work.isTransfur || (showTransfurWork && work.isTransfur))
     .sort((a, b) => (b.startDate?.getTime() ?? 0) - (a.startDate?.getTime() ?? 0));
+
+definePageMeta({
+    title: 'Portfolio'
+});
 </script>

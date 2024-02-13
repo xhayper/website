@@ -51,5 +51,9 @@
 <script setup lang="ts">
 useHead({
     title: "hayper",
+    meta: [
+        { property: "og:title", content: `hayper` },
+        { name: "twitter:title", content: `hayper` },
+    ]
 });
 </script>

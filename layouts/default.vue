@@ -10,9 +10,13 @@
 
 const route = useRoute();
 
-const capitalize = (text: string) => text.charAt(0).toUpperCase() + text.slice(1);
+const formattedTitle = route.meta.title ? `${route.meta.title} - hayper` : 'hayper';
 
 useHead({
-    title: `${capitalize(String(route.name))} - hayper`,
+    title: formattedTitle,
+    meta: [
+        { property: "og:title", content: formattedTitle },
+        { name: "twitter:title", content: formattedTitle },
+    ]
 });
 </script>
