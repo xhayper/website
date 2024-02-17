@@ -17,6 +17,9 @@ devDependencies:
   '@vercel/analytics':
     specifier: ^1.2.0
     version: 1.2.0
+  '@vercel/speed-insights':
+    specifier: ^1.0.10
+    version: 1.0.10(vue-router@4.2.5)(vue@3.4.19)
   flowbite:
     specifier: ^2.3.0
     version: 2.3.0
@@ -2174,6 +2177,34 @@ packages:
     transitivePeerDependencies:
       - encoding
       - supports-color
+    dev: true
+
+  /@vercel/speed-insights@1.0.10(vue-router@4.2.5)(vue@3.4.19):
+    resolution: {integrity: sha512-4uzdKB0RW6Ff2FkzshzjZ+RlJfLPxgm/00i0XXgxfMPhwnnsk92YgtqsxT9OcPLdJUyVU1DqFlSWWjIQMPkh0g==}
+    requiresBuild: true
+    peerDependencies:
+      '@sveltejs/kit': ^1 || ^2
+      next: '>= 13'
+      react: ^18 || ^19
+      svelte: ^4
+      vue: ^3
+      vue-router: ^4
+    peerDependenciesMeta:
+      '@sveltejs/kit':
+        optional: true
+      next:
+        optional: true
+      react:
+        optional: true
+      svelte:
+        optional: true
+      vue:
+        optional: true
+      vue-router:
+        optional: true
+    dependencies:
+      vue: 3.4.19
+      vue-router: 4.2.5(vue@3.4.19)
     dev: true
 
   /@vitejs/plugin-vue-jsx@3.1.0(vite@5.1.1)(vue@3.4.19):
