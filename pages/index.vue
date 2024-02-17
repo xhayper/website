@@ -59,6 +59,14 @@
             class="text-gray-900 md:hover:text-blue-700 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white">
             here
         </NuxtLink>
+        <br>
+        <br>
+        also vercel speed insights so like...<br>
+        more info here: <NuxtLink to="https://vercel.com/docs/speed-insights/quickstart" target="_blank"
+            rel="noreferrer noopener"
+            class="text-gray-900 md:hover:text-blue-700 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white">
+            here
+        </NuxtLink>
     </div>
 </template>
 
