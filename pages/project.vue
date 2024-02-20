@@ -69,6 +69,16 @@ const projectList: Project[] = [
         url: "https://github.com/xhayper/roblox-message-thing/"
     },
     {
+        name: "zzlib.luau",
+        description: "zlib-compressed file depacking library in Luau. (Non Roblox)",
+        url: "https://github.com/xhayper/zzlib.luau"
+    },
+    {
+        name: "CacheStore",
+        description: "A simple database wrapper that store data and cache it. (Roblox)",
+        url: "https://github.com/xhayper/StuffIMade/blob/main/Roblox/src/CacheStore.luau"
+    },
+    {
         name: "dr-k-bot",
         description: "Moderation bot for Official Changed discord server. (Non Roblox)",
         url: "https://github.com/xhayper/dr-k-bot",
