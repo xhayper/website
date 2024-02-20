@@ -36,7 +36,11 @@ useHead({
       name: "viewport",
       content: "width=device-width, initial-scale=1, shrink-to-fit=no",
     },
-    { name: "theme-color", content: "#57739A" },
+    // Catppuccino Mocha color
+    { name: "theme-color", content: "#1E1E2E" },
+    // Fursona color
+    // { name: "theme-color", content: "#57739A" },
+    { name: "description", content: "Furry | Backend developer" },
     // OpenGraph
     { property: "og:type", content: "website" },
     { property: "og:title", content: "hayper" },
