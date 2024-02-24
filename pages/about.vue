@@ -1,6 +1,8 @@
 <template>
     <div class="m-5">
-        Teenage furry backend developer, that's it...
+        <span>
+            Teenage furry backend developer, that's it...
+        </span>
     </div>
 </template>
 

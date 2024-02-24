@@ -7,7 +7,7 @@
                     <NuxtLink v-if="social.url" :to="social.url" target="_blank" rel="me noreferrer noopener"
                         class="font-medium text-blue-600 dark:text-blue-500 hover:underline">{{ social.name }}
                     </NuxtLink>
-                    <span v-else class="font-medium">{{ social.name }}: {{ social.text }}</span>
+                    <span v-else>{{ social.name }}: {{ social.text }}</span>
                 </li>
             </ul>
         </div>
@@ -46,6 +46,8 @@ const socialList = [
 ]
 
 const miscList = [
-    { "name": "Source code", "url": "https://github.com/xhayper/website" }
+    { "name": "Source code", "url": "https://github.com/xhayper/website" },
+    { "name": "Linktree", "url": "https://linktr.ee/xhayper" },
+    { "name": "Ko-fi", "url": "https://ko-fi.com/xhayper" }
 ];
 </script>
