@@ -19,6 +19,7 @@
     "flowbite": "^2.3.0",
     "nuxt": "^3.10.3",
     "nuxt-simple-robots": "4.0.0-rc.14",
+    "sass": "^1.71.1",
     "vue": "^3.4.19",
     "vue-router": "^4.3.0"
   }

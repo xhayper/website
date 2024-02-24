@@ -7,7 +7,7 @@ export default defineNuxtConfig({
     "@nuxtjs/sitemap",
     "nuxt-simple-robots",
   ],
-  css: ["~/assets/css/main.css"],
+  css: ["~/assets/scss/main.scss"],
   watch: ["tailwind.config.js"],
   site: {
     url: "https://hayper.xyz",
