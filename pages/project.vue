@@ -105,6 +105,4 @@ const filteredProjectList = projectList.filter(work => !work.isTransfur || (show
 definePageMeta({
     title: 'Project'
 });
-
-updateTitle();
 </script>

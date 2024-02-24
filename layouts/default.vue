@@ -1,13 +1,15 @@
 <template>
     <div>
         <SpeedInsights />
-        <Navbar />
-        <slot />
+        <header>
+            <Navbar />
+        </header>
+        <main>
+            <slot />
+        </main>
     </div>
 </template>
 
 <script setup lang="ts">
 import { SpeedInsights } from '@vercel/speed-insights/vue';
-
-updateTitle();
 </script>

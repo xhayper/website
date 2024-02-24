@@ -8,6 +8,4 @@
 definePageMeta({
     title: 'About'
 });
-
-updateTitle();
 </script>

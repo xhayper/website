@@ -71,11 +71,12 @@
 </template>
 
 <script setup lang="ts">
-useHead({
+definePageMeta({
     title: "hayper",
-    meta: [
-        { property: "og:title", content: `hayper` },
-        { name: "twitter:title", content: `hayper` },
-    ]
+    ogTitle: "hayper",
+    twitterTitle: "hayper",
+    overrideTitle: true
 });
+
+// TODO: Make it so the link are using an array of objects
 </script>

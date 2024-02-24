@@ -54,7 +54,7 @@ const workList: Work[] = [
     },
     {
         name: "Edward the Man-Eating Train",
-        description: "A game based on Choo-Choo Charles concept where you have to survive a train killing you. (Roblox)",
+        description: "A game where you have to survive a train killing you. (Roblox)",
         job: "Moderator",
         startDate: new Date(2022, 12),
         thumbnail: "https://tr.rbxcdn.com/d8cfc19d65bc40ae0afe122a1135064b/150/150/Image/Png",
@@ -145,8 +145,6 @@ const filteredWorkList = workList.filter(work => !work.isTransfur || (showTransf
     .sort((a, b) => (b.startDate?.getTime() ?? 0) - (a.startDate?.getTime() ?? 0));
 
 definePageMeta({
-    title: 'Portfolio'
+    title: 'Work'
 });
-
-updateTitle();
 </script>

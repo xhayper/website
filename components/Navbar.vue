@@ -28,7 +28,7 @@
 </template>
 
 <script setup lang="ts">
-const route = useRoute();
+const route = ref(useRoute());
 
 const routeList = [
     {
@@ -40,8 +40,8 @@ const routeList = [
         path: '/about'
     },
     {
-        name: 'Portfolio',
-        path: '/portfolio'
+        name: 'Work',
+        path: '/work'
     },
     {
         name: 'Project',
