@@ -5,7 +5,9 @@
             <Navbar />
         </header>
         <main>
-            <slot />
+            <div class="m-16">
+                <slot />
+            </div>
         </main>
     </div>
 </template>

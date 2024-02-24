@@ -1,10 +1,8 @@
 <template>
-    <div class="m-16">
-        <div class="grid gap-16 sm:grid-cols-2 lg:grid-cols-5 justify-items-center">
-            <WorkCard v-for="work in filteredWorkList" :key="work.name" :name="work.name" :description="work.description"
-                :job="work.job" :startDate="work.startDate" :endDate="work.endDate" :thumbnail="work.thumbnail"
-                :url="work.url" />
-        </div>
+    <div class="grid gap-16 sm:grid-cols-2 lg:grid-cols-5 justify-items-center">
+        <WorkCard v-for="work in filteredWorkList" :key="work.name" :name="work.name" :description="work.description"
+            :job="work.job" :startDate="work.startDate" :endDate="work.endDate" :thumbnail="work.thumbnail"
+            :url="work.url" />
     </div>
 </template>
 

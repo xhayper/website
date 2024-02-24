@@ -1,9 +1,7 @@
 <template>
-    <div class="m-5">
-        <span>
-            Teenage furry backend developer, that's it...
-        </span>
-    </div>
+    <span>
+        Teenage furry backend developer, that's it...
+    </span>
 </template>
 
 <script setup lang="ts">

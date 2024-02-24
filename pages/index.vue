@@ -1,27 +1,25 @@
 <template>
-    <div class="m-5">
-        <div>
-            <h2 class="mb-2 text-lg font-semibold text-gray-900 dark:text-white">Socials:</h2>
-            <ul class="max-w-md space-y-1 text-gray-500 list-inside dark:text-gray-400">
-                <li v-for="social in socialList" class="flex items-center">
-                    <NuxtLink v-if="social.url" :to="social.url" target="_blank" rel="me noreferrer noopener"
-                        class="font-medium text-blue-600 dark:text-blue-500 hover:underline">{{ social.name }}
-                    </NuxtLink>
-                    <span v-else>{{ social.name }}: {{ social.text }}</span>
-                </li>
-            </ul>
-        </div>
-        <br>
-        <div>
-            <h2 class="mb-2 text-lg font-semibold text-gray-900 dark:text-white">Misc:</h2>
-            <ul class="max-w-md space-y-1 text-gray-500 list-inside dark:text-gray-400">
-                <li v-for="misc in miscList" class="flex items-center">
-                    <NuxtLink :to="misc.url" target="_blank" rel="me noreferrer noopener"
-                        class="font-medium text-blue-600 dark:text-blue-500 hover:underline">{{ misc.name }}
-                    </NuxtLink>
-                </li>
-            </ul>
-        </div>
+    <div>
+        <h2 class="mb-2 text-lg font-semibold text-gray-900 dark:text-white">Socials:</h2>
+        <ul class="max-w-md space-y-1 text-gray-500 list-inside dark:text-gray-400">
+            <li v-for="social in socialList" class="flex items-center">
+                <NuxtLink v-if="social.url" :to="social.url" target="_blank" rel="me noreferrer noopener"
+                    class="font-medium text-blue-600 dark:text-blue-500 hover:underline">{{ social.name }}
+                </NuxtLink>
+                <span v-else>{{ social.name }}: {{ social.text }}</span>
+            </li>
+        </ul>
+    </div>
+    <br>
+    <div>
+        <h2 class="mb-2 text-lg font-semibold text-gray-900 dark:text-white">Misc:</h2>
+        <ul class="max-w-md space-y-1 text-gray-500 list-inside dark:text-gray-400">
+            <li v-for="misc in miscList" class="flex items-center">
+                <NuxtLink :to="misc.url" target="_blank" rel="me noreferrer noopener"
+                    class="font-medium text-blue-600 dark:text-blue-500 hover:underline">{{ misc.name }}
+                </NuxtLink>
+            </li>
+        </ul>
     </div>
 </template>
 

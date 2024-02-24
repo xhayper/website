@@ -1,9 +1,7 @@
 <template>
-    <div class="m-16">
-        <div class="grid gap-16 sm:grid-cols-2 lg:grid-cols-5 justify-items-center">
-            <ProjectCard v-for="project in filteredProjectList" :key="project.name" :name="project.name"
-                :description="project.description" :thumbnail="project.thumbnail" :url="project.url" />
-        </div>
+    <div class="grid gap-16 sm:grid-cols-2 lg:grid-cols-5 justify-items-center">
+        <ProjectCard v-for="project in filteredProjectList" :key="project.name" :name="project.name"
+            :description="project.description" :thumbnail="project.thumbnail" :url="project.url" />
     </div>
 </template>
 
