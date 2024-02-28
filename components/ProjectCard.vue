@@ -1,8 +1,7 @@
 <template>
     <NuxtLink :to="$props.url" target="_blank" rel="noreferrer noopener"
         class="flex flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-        <div class="w-sm h-sm">
-            <!-- TODO: Not resized properly -->
+        <div class="w-80 h-80 min-w-80 min-h-80">
             <NuxtImg class="object-cover rounded-t-lg w-full h-full"
                 :src="$props.thumbnail ?? generatePlaceholder($props.name)" placeholder />
         </div>
