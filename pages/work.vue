@@ -22,6 +22,14 @@ type Work = {
 
 const workList: Work[] = [
     {
+        name: "Furry Tower Defense",
+        description: "Tower defense but furry (Roblox)",
+        job: "Scripting",
+        startDate: new Date(2024, 3, 14),
+        thumbnail: "https://tr.rbxcdn.com/8d60fc74f8ee02643ac4945e9911212a/150/150/Image/Png",
+        url: "https://www.roblox.com/games/13357844176/"
+    },
+    {
         name: "Reflektone Games",
         description: "Rhythm game development team (Non Roblox)",
         job: "Website back-end developer",
