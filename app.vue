@@ -5,7 +5,7 @@
 </template>
 
 <script setup lang="ts">
-import { initFlowbite } from 'flowbite';
+import { initFlowbite } from "flowbite";
 
 onMounted(() => {
   initFlowbite();
@@ -14,16 +14,22 @@ onMounted(() => {
 const route = useRoute();
 
 function updateTitle() {
-  const formattedTitle = 'title' in route.meta && typeof route.meta.title === 'string'
-    ? (route.meta.overrideTitle ? route.meta.title : `${route.meta.title} - hayper`)
-    : "hayper";
+  const formattedTitle =
+    "title" in route.meta && typeof route.meta.title === "string"
+      ? route.meta.overrideTitle
+        ? route.meta.title
+        : `${route.meta.title} - hayper`
+      : "hayper";
 
+  const ogTitle =
+    "ogTitle" in route.meta && typeof route.meta.ogTitle === "string"
+      ? route.meta.ogTitle
+      : formattedTitle;
 
-  const ogTitle = "ogTitle" in route.meta && typeof route.meta.ogTitle === "string"
-    ? route.meta.ogTitle
-    : formattedTitle;
-
-  const twitterTitle = "twitterTitle" in route.meta && typeof route.meta.twitterTitle === "string" ? route.meta.twitterTitle : formattedTitle;
+  const twitterTitle =
+    "twitterTitle" in route.meta && typeof route.meta.twitterTitle === "string"
+      ? route.meta.twitterTitle
+      : formattedTitle;
 
   useHead({
     title: formattedTitle,

@@ -1,32 +1,49 @@
 <template>
-    <NuxtLink :to="$props.url" target="_blank" rel="noreferrer noopener"
-        class="flex flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-        <div class="w-80 h-80 min-w-80 min-h-80">
-            <NuxtImg class="object-cover rounded-t-lg w-full h-full"
-                :src="$props.thumbnail ?? generatePlaceholder($props.name)" placeholder />
-        </div>
-        <div class="flex flex-col p-5 leading-normal flex-grow">
-            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">{{ $props.name }}</h5>
-            <p class="mb-2 font-normal text-gray-700 dark:text-gray-400">{{ $props.description }}</p>
-            <p class="mt-auto font-normal text-gray-700 dark:text-gray-400">Role: {{ $props.job }}</p>
-            <p class="mt-auto text-gray-700 dark:text-gray-400 text-gray-900 dark:text-white">{{
-                $props.startDate?.toLocaleDateString() ?? "Unknown" }} {{ $props.endDate ? `-
-                ${$props.endDate.toLocaleDateString()}` : ''
-    }}</p>
-        </div>
-    </NuxtLink>
+  <NuxtLink :to="$props.url" target="_blank" rel="noreferrer noopener"
+    class="flex flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+    <div class="w-80 h-80 min-w-80 min-h-80">
+      <NuxtImg class="object-cover rounded-t-lg w-full h-full"
+        :src="$props.thumbnail ?? generatePlaceholder($props.name)" placeholder />
+    </div>
+    <div class="flex flex-col p-5 leading-normal flex-grow">
+      <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+        {{ $props.name }}
+      </h5>
+      <p class="mb-2 font-normal text-gray-700 dark:text-gray-400">
+        {{ $props.description }}
+      </p>
+      <p class="mt-auto font-normal text-gray-700 dark:text-gray-400">
+        Role: {{ $props.job }}
+      </p>
+      <p class="mt-auto text-gray-700 dark:text-gray-400 text-gray-900 dark:text-white">
+        {{ $props.startDate?.toLocaleDateString() ?? "Unknown" }}
+        {{
+          $props.endDate
+            ? `-
+        ${$props.endDate.toLocaleDateString()}`
+            : ""
+        }}
+      </p>
+    </div>
+  </NuxtLink>
 </template>
 
 <script setup lang="ts">
-const generatePlaceholder = (text: string) => `https://placehold.co/384x384?text=${encodeURIComponent(text.split(" ").map((text) => text[0]).join(""))}`;
+const generatePlaceholder = (text: string) =>
+  `https://placehold.co/384x384?text=${encodeURIComponent(
+    text
+      .split(" ")
+      .map((text) => text[0])
+      .join(""),
+  )}`;
 
 defineProps<{
-    name: string,
-    description: string,
-    job: string,
-    startDate?: Date,
-    endDate?: Date,
-    thumbnail?: string,
-    url?: string
+  name: string;
+  description: string;
+  job: string;
+  startDate?: Date;
+  endDate?: Date;
+  thumbnail?: string;
+  url?: string;
 }>();
 </script>
