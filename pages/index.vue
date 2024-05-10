@@ -51,10 +51,14 @@ const socialList = [
   { name: "Mastodon", url: "https://furry.engineer/@hayper" },
   { name: "Bluesky", url: "https://bsky.app/profile/hayper.xyz" },
   { name: "Roblox", url: "https://www.roblox.com/users/1921023125/profile" },
-  { name: "Discord Server", url: "https://discord.gg/xTAR8nUs2g" },
+  
+  { name: "Discord server", url: "https://discord.gg/N3Nc3d6c" },
+  { name: "Revolt server", url: "https://rvlt.gg/Z3CFqAPR" },
+  { name: "Guilded server", url: "https://www.guilded.gg/i/EvPjmK4k" },
 
   { name: "Discord", text: "xhayper" },
   { name: "Revolt", text: "hayper#5357" },
+  { name: "Guilded", url: "https://www.guilded.gg/u/hayper" },
 ];
 
 const miscList = [
