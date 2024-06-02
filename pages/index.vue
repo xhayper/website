@@ -52,7 +52,7 @@ const socialList = [
   { name: "Bluesky", url: "https://bsky.app/profile/hayper.xyz" },
   { name: "Roblox", url: "https://www.roblox.com/users/1921023125/profile" },
   
-  { name: "Discord server", url: "https://discord.gg/N3Nc3d6c" },
+  { name: "Discord server", url: "https://discord.com/invite/r4rHCM6eut" },
   { name: "Revolt server", url: "https://rvlt.gg/Z3CFqAPR" },
   { name: "Guilded server", url: "https://www.guilded.gg/i/EvPjmK4k" },
 
