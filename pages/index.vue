@@ -56,7 +56,7 @@ const socialList = [
   { name: "Revolt server", url: "https://rvlt.gg/Z3CFqAPR" },
   { name: "Guilded server", url: "https://www.guilded.gg/i/EvPjmK4k" },
 
-  { name: "Discord", text: "xhayper" },
+  { name: "Discord", text: "hayper1919" },
   { name: "Revolt", text: "hayper#5357" },
   { name: "Guilded", url: "https://www.guilded.gg/u/hayper" },
 ];
