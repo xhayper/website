@@ -1,0 +1,22 @@
+{
+  "name": "website",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxi build",
+    "dev": "nuxi dev",
+    "generate": "nuxi generate",
+    "preview": "nuxi preview",
+    "postinstall": "nuxi prepare"
+  },
+  "dependencies": {
+    "@nuxt/devtools": "^1.6.0",
+    "@nuxt/icon": "^1.5.6",
+    "@nuxtjs/i18n": "^8.5.5",
+    "@nuxtjs/tailwindcss": "^6.12.2",
+    "nuxt": "^3.13.2",
+    "sass": "^1.80.3",
+    "vue": "^3.5.12",
+    "vue-router": "^4.4.5"
+  }
+}
