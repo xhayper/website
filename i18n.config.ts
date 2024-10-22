@@ -92,7 +92,7 @@ export default defineI18nConfig(() => ({
 
             // indedx page
             "pages.index.heading": "你好！",
-            "pages.index.description": "我的叫是苏芸雯，但在非中国平台上，我使用黑柏，我是furry和后端开发人员!",
+            "pages.index.description": "我叫苏芸雯，但在非中国平台上，我使用黑柏，我是furry和后端开发人员!",
         }
     }
 }))
