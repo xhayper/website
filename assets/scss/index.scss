@@ -1,3 +1,44 @@
-html {
-    color-scheme: light dark;
+:root {
+    --bg: #f9f9f9;
+    --text: #333;
+    --card-bg: white;
+    --link: #0077cc;
+    --section-heading: #444;
+}
+
+body.dark {
+    --bg: #121212;
+    --text: #eee;
+    --card-bg: #1e1e1e;
+    --link: #4da3ff;
+    --section-heading: #ccc;
+}
+
+body {
+    font-family: Inter, Arial, sans-serif;
+    background-color: var(--bg);
+    color: var(--text);
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    transition: background-color 0.3s, color 0.3s;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    margin: 0.5rem 0;
+    font-size: 1.8rem;
+}
+
+h2 {
+    font-size: 1.2rem;
+    color: var(--section-heading);
+    margin-bottom: 1rem;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.4;
+    margin: 0.5rem 0 1.5rem;
 }
