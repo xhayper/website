@@ -6,6 +6,7 @@ export default defineI18nConfig(() => ({
             // glossary
             "name": "hayper",
 
+            "linktree": "Linktree",
             "github": "GitHub",
             "x": "X",
             "mastodon": "Mastodon",
@@ -13,6 +14,7 @@ export default defineI18nConfig(() => ({
             "discord": "Discord",
             "revolt": "Revolt",
             "guilded": "Guilded",
+            "telegram": "Telegram",
 
             "discord.server": "Discord server",
             "revolt.server": "Revolt server",
@@ -31,13 +33,17 @@ export default defineI18nConfig(() => ({
             "layouts.title": "TBD",
 
             // index page
-            "pages.index.heading": "Hello!",
-            "pages.index.description": "I am hayper! i am a furry and a backend developer!",
+            "pages.index.role": "Software and Knowledge Engineering student",
+            "pages.index.description": "Just your average furry in the IT field",
+            "pages.index.title.servers": "Servers",
+            "pages.index.title.contacts": "Contact",
+            "pages.index.title.codedBy": "Coded by",
         },
         "th": {
             // glossary
             "name": "เป้อ",
 
+            "linktree": "Linktree",
             "github": "GitHub",
             "x": "X",
             "mastodon": "Mastodon",
@@ -45,6 +51,7 @@ export default defineI18nConfig(() => ({
             "discord": "Discord",
             "revolt": "Revolt",
             "guilded": "Guilded",
+            "telegram": "Telegram",
 
             "discord.server": "เซิฟเวอร์ Discord",
             "revolt.server": "เซิฟเวอร์ Revolt",
@@ -59,23 +66,26 @@ export default defineI18nConfig(() => ({
             "chinese": "จีน",
             "misc": "อื่นๆ",
 
-            // indedx page
-            "pages.index.heading": "สวัสดี!",
-            "pages.index.description": "ผมชื่อว่าเป้อเป็นเฟอร์รี่และโปรแกรมเมอร์หลังบ้าน!",
+            // index page
+            "pages.index.role": "นิสิตวิศวกรรมซอฟต์แวร์และความรู้",
+            "pages.index.description": "เฟอร์ทั่วไปที่อยู่ในโลก IT",
+            "pages.index.title.servers": "เซิฟเวอร์",
+            "pages.index.title.contacts": "ติดต่อ",
+            "pages.index.title.codedBy": "สร้างโดย",
         },
         "zh": {
             // glossary
             "name": "苏芸雯 / 黑柏",
 
+            "linktree": "Linktree",
             "github": "GitHub",
-
             "x": "X",
             "mastodon": "Mastodon",
             "bluesky": "Bluesky",
-
             "discord": "Discord",
             "revolt": "Revolt",
             "guilded": "Guilded",
+            "telegram": "Telegram",
 
             "discord.server": "Discord服务器",
             "revolt.server": "Revolt服务器",
@@ -90,9 +100,12 @@ export default defineI18nConfig(() => ({
             "chinese": "中文",
             "misc": "各种各样的",
 
-            // indedx page
-            "pages.index.heading": "你好！",
-            "pages.index.description": "我叫苏芸雯，但在非中国平台上，我使用黑柏，我是furry和后端开发人员!",
+            // index page
+            // "pages.index.role": "Software and Knowledge Engineering student",
+            // "pages.index.description": "Just your average furry in the IT field",
+            "pages.index.title.servers": "服务器",
+            // "pages.index.title.contacts": "ติดต่อ",
+            // "pages.index.title.codedBy": "สร้างโดย",
         }
     }
 }))

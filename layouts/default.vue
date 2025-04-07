@@ -1,6 +1,7 @@
 <script setup>
 const route = useRoute()
 const { t } = useI18n()
+
 const head = useLocaleHead({
     addDirAttribute: true,
     identifierAttribute: 'id',
@@ -24,10 +25,10 @@ const title = computed(() => "namedTitle" in route.meta ? `${t("name")} | ${t(ro
             </template>
         </Head>
 
-        <Body class="m-8">
+        <Body>
             <!-- nav is already included -->
-            <Navbar />
-            <br>
+            <!-- <Navbar /> -->
+            <!-- <br> -->
             <!-- nav is already included -->
             <main>
                 <slot />
