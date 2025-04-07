@@ -3,6 +3,8 @@ definePageMeta({
   title: "name"
 })
 
+const colorMode = useColorMode();
+const theme = computed(() => colorMode.value);
 const colorToggleButton = useTemplateRef('colorToggle');
 
 const textList = {
@@ -38,9 +40,7 @@ const textList = {
 } as Record<string, ({ type: "url" | "text", title: string, value: string } | { type: "newline" })[]>;
 
 function toggleColor() {
-  document.body.classList.toggle('dark');
-  const isDark = document.body.classList.contains('dark');
-  colorToggleButton.value!.textContent = isDark ? '🌙' : '🌞';
+  colorMode.preference = theme.value === "dark" ? "light" : "dark";
 }
 </script>
 
@@ -51,11 +51,15 @@ function toggleColor() {
         <div>
           <!-- TODO: Fix this -->
           <button>
-            <NuxtLink to="/en" prefetch>EN</NuxtLink> / <NuxtLink to="/th" prefetch>ไทย</NuxtLink> / <NuxtLink to="/zh" prefetch>中文</NuxtLink>
+            <NuxtLink to="/en" prefetch>EN</NuxtLink> / <NuxtLink to="/th" prefetch>ไทย</NuxtLink> / <NuxtLink to="/zh"
+              prefetch>中文</NuxtLink>
           </button>
-          <button ref="colorToggle" class="colorToggle" v-on:click="toggleColor" title="Toggle Dark Mode">🌞</button>
+          <ClientOnly>
+            <button ref="colorToggle" class="colorToggle" v-on:click="toggleColor" title="Toggle theme">{{ theme ===
+              'dark' ? "🌙" : "🌞" }}</button>
+          </ClientOnly>
         </div>
-        <div class="flex justify-center">
+        <div class="flex justify-center my-2">
           <NuxtImg class="profile-pic" src="/profile-picture.png" :alt="$t('name')" />
         </div>
         <h1>{{ $t("name") }}</h1>
