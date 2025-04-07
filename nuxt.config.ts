@@ -3,7 +3,11 @@ export default defineNuxtConfig({
   compatibilityDate: '2024-04-03',
   devtools: { enabled: true },
   css: ["@/assets/scss/index.scss"],
-  modules: ['@nuxtjs/i18n', '@nuxt/image', '@nuxt/icon', '@nuxtjs/tailwindcss'],
+  modules: ['@nuxtjs/i18n', '@nuxt/image', '@nuxt/icon', '@nuxtjs/tailwindcss', '@nuxtjs/color-mode'],
+  colorMode: {
+    classPrefix: '',
+    classSuffix: '',
+  },
   i18n: {
     baseUrl: 'https://hayper.xyz',
     detectBrowserLanguage: { alwaysRedirect: false, fallbackLocale: 'en', redirectOn: 'root', useCookie: true, cookieKey: 'i18n_redirected', cookieSecure: true },

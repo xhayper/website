@@ -6,12 +6,14 @@
     --section-heading: #444;
 }
 
-body.dark {
-    --bg: #121212;
-    --text: #eee;
-    --card-bg: #1e1e1e;
-    --link: #4da3ff;
-    --section-heading: #ccc;
+html.dark {
+    body {
+        --bg: #121212;
+        --text: #eee;
+        --card-bg: #1e1e1e;
+        --link: #4da3ff;
+        --section-heading: #ccc;
+    }
 }
 
 body {
