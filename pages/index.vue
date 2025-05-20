@@ -231,4 +231,9 @@ function toggleColor() {
     display: none;
   }
 }
+
+/* quick fix */
+button>a:hover {
+  text-decoration: underline;
+}
 </style>
