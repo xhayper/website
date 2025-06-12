@@ -13,8 +13,7 @@ const textList = {
     { type: "url", title: "github", value: "https://github.com/xhayper" },
     { type: "url", title: "twitter", value: "https://twitter.com/hayper1919" },
     { type: "url", title: "mastodon", value: "https://furry.engineer/@hayper" },
-    { type: "url", title: "bluesky", value: "https://bsky.app/profile/hayper.xyz" },
-    { type: "url", title: "guilded", value: "https://www.guilded.gg/u/hayper" },
+    { type: "url", title: "bluesky", value: "https://bsky.app/profile/hayper.xyz" }
   ],
   // "footer.chinese": [
   //   { type: "url", title: "bilibili", value: "https://space.bilibili.com/3546753949239975" },
