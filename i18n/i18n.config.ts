@@ -8,7 +8,7 @@ export default defineI18nConfig(() => ({
 
             "linktree": "Linktree",
             "github": "GitHub",
-            "x": "X",
+            "twitter": "Twitter",
             "mastodon": "Mastodon",
             "bluesky": "Bluesky",
             "discord": "Discord",
@@ -45,7 +45,7 @@ export default defineI18nConfig(() => ({
 
             "linktree": "Linktree",
             "github": "GitHub",
-            "x": "X",
+            "twitter": "Twitter",
             "mastodon": "Mastodon",
             "bluesky": "Bluesky",
             "discord": "Discord",
@@ -79,7 +79,7 @@ export default defineI18nConfig(() => ({
 
             "linktree": "Linktree",
             "github": "GitHub",
-            "x": "X",
+            "twitter": "Twitter",
             "mastodon": "Mastodon",
             "bluesky": "Bluesky",
             "discord": "Discord",
