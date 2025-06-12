@@ -11,6 +11,7 @@ const textList = {
   "footer": [
     { type: "url", title: "linktree", value: "https://linktr.ee/xhayper" },
     { type: "url", title: "github", value: "https://github.com/xhayper" },
+    { type: "url", title: "twitter", value: "https://twitter.com/hayper1919" },
     { type: "url", title: "mastodon", value: "https://furry.engineer/@hayper" },
     { type: "url", title: "bluesky", value: "https://bsky.app/profile/hayper.xyz" },
     { type: "url", title: "guilded", value: "https://www.guilded.gg/u/hayper" },
