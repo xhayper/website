@@ -29,7 +29,7 @@ const textList = {
   //   { type: "text", title: "wechat", value: "....." }
   // ],
   "servers": [
-    { type: "url", title: "discord.server", value: "https://discord.com/invite/r4rHCM6eut" },
+    { type: "url", title: "discord.server", value: "https://discord.gg/b5GHsDevNt" },
     { type: "url", title: "revolt.server", value: "https://rvlt.gg/Z3CFqAPR" },
     { type: "url", title: "guilded.server", value: "https://www.guilded.gg/i/EvPjmK4k" },
   ],
