@@ -10,23 +10,18 @@
     "postinstall": "nuxi prepare"
   },
   "dependencies": {
-    "@nuxt/devtools": "^2.4.1",
-    "@nuxt/icon": "^1.13.0",
+    "@nuxt/icon": "^1.15.0",
     "@nuxt/image": "1.10.0",
     "@nuxtjs/color-mode": "3.5.2",
-    "@nuxtjs/i18n": "^9.5.4",
+    "@nuxtjs/i18n": "^9.5.6",
     "@nuxtjs/tailwindcss": "^6.14.0",
-    "nuxt": "^3.17.3",
-    "sass": "^1.89.0",
-    "vue": "^3.5.14",
+    "@vercel/analytics": "^1.5.0",
+    "nuxt": "^3.17.6",
+    "sass": "^1.89.2",
+    "vue": "^3.5.17",
     "vue-router": "^4.5.1"
   },
-  "packageManager": "pnpm@10.11.0",
-  "pnpm": {
-    "onlyBuiltDependencies": [
-      "@parcel/watcher",
-      "esbuild",
-      "sharp"
-    ]
-  }
+  "trustedDependencies": [
+    "@parcel/watcher"
+  ]
 }
